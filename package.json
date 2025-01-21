@@ -1,0 +1,38 @@
+{
+  "name": "create-cos72-app",
+  "version": "1.0.0",
+  "bin": {  
+    "create-cos72-app": "./bin/index.js"  
+  }, 
+  "keywords": ["create-cos72-app", "cos72", "cos72-app", "web3", "template"],
+  "author": "AAStar.io",
+  "license": "MIT",
+  "type": "commonjs",
+  "description": "Create a Web3 app with cos72 template in seconds^_^",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^13.1.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^11.2.0",
+    "ora": "^5.4.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cos72-team/create-cos72-app"
+  },
+  "bugs": {
+    "url": "https://github.com/cos72-team/create-cos72-app/issues"
+  },
+  "homepage": "https://github.com/cos72-team/create-cos72-app#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "config/"
+  ]
+}
